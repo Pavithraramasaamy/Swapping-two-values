@@ -1,10 +1,16 @@
 # Swapping-two-values
+
 ## AIM:
+
 To write a python program for swapping of two values
+
 ## EQUIPEMENT'S REQUIRED: 
+
 PC
 Anaconda - Python 3.7
+
 ## ALGORITHM: 
+
 ### Step 1:
 Get the two values from the user
 ### Step 2: 
@@ -17,9 +23,22 @@ Assign the value in temporary variable to the first variable
 Print both the values it would be interchanged
 ### Step 6: 
 End the program
+
 ## PROGRAM:
+```python
+#Program to swap two values.
+#Developed by:Pavithra.R
+#RegisterNumber:22008965
+m1=int(input())
+m2=int(input())
+temp = m2
+m2 = m1
+m1 = temp
+print('Swapped values are:',m1,m2)
+```
 
-
+## Output:
+![](./swap.png)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
